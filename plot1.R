@@ -1,4 +1,6 @@
-unzip("exdata_data_household_power_consumption.zip", overwrite = T)
+# This project requires that the dataset downloaded from the UCI repositiory as per instruction page (readme.md)
+
+nzip("exdata_data_household_power_consumption.zip", overwrite = T)
 datasource <- "household_power_consumption.txt"
 data <- read.table(datasource, header=TRUE, sep=";", stringsAsFactors=FALSE, dec=".")
 subData <- data[data$Date %in% c("1/2/2007","2/2/2007") ,]
