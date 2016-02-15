@@ -1,4 +1,7 @@
+
+
 ## Introduction
+# The code provided in this submission requires the original dataset be downloaded from UCI repository and relocated within the same working directory
 
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
